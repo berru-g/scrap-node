@@ -1,47 +1,52 @@
-//scrapping with nodejs
 import fetch from 'node-fetch'
-import cheerio from 'cheerio' 
-import fs from 'fs/promises'
+import cheerio from 'cheerio'
 
-const newestQuestions = []
-async function fetchData(url){
-    try {
-        const response = await fetch(url)
+async function search(event) { 
+  event.preventDefault()
+  const searchInput = document.getElementById('search-input').value
+  const url = `https://www.amazon.fr/s?k=${searchInput}`
+  try {
+    const response = await fetch(url)
     const data = await response.text()
-   getQuestions(data)
-    } catch (error) {
-        console.error(error)
-    }
-    //console.log(data)
+    const products = getProducts(data)
+    displayProducts(products)
+  } catch (error) {
+    console.error(error)
+  }
 }
-fetchData("https://www.livre-audio-enfant.com/");
 
-async function getQuestions(html){
-    const $ = cheerio.load(html)
-
-    $(".home-cards", html).each(function(){
-        //console.log($(this).text())
-        //console.log($(this).children("a").attr("href"))
-
-        const newestQuestion = {
-            id : newestQuestions.length + 1,
-            title : $(this).text().trim,
-            url : 'https://www.livre-audio-enfant.com/${$(this).children("a").attr("href")}'
-
-        }
-        newestQuestions.push(newestQuestion)
-    })
-    //console.log(newestQuestions) //datajson, async function
-    //await fs.writeFile("data.json", JSON.stringify(newestQuestions))
-    try {
-        await fs.writeFile("data.json", JSON.stringify(newestQuestions))
-    } catch (error) {
-        console.error(error)
-        
+function getProducts(html) {
+  const $ = cheerio.load(html)
+  const products = []
+  $(".s-result-item", html).each(function(){
+    const title = $(this).find('h2').text().trim()
+    const price = $(this).find('.a-price-whole').text().trim()
+    const url = $(this).find('a').attr('href')
+    const product = {
+      title,
+      price,
+      url
     }
+    products.push(product)
+  })
+  return products
 }
-/*
-setInterval(() =>{
-    fetchData("https://www.livre-audio-enfant.com/");
 
-}, 1000 * 60 * 60)*/
+function displayProducts(products) {
+  const resultDiv = document.getElementById('result')
+  resultDiv.innerHTML = ''
+  products.forEach((product) => {
+    const productDiv = document.createElement('div')
+    const titleElement = document.createElement('h2')
+    titleElement.textContent = product.title
+    const priceElement = document.createElement('p')
+    priceElement.textContent = `Prix: ${product.price} €`
+    const urlElement = document.createElement('a')
+    urlElement.textContent = 'Voir sur Amazon'
+    urlElement.href = `https://www.amazon.fr${product.url}`
+    productDiv.appendChild(titleElement)
+    productDiv.appendChild(priceElement)
+    productDiv.appendChild(urlElement)
+    resultDiv.appendChild(productDiv)
+  })
+}
