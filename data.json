@@ -1,1 +1,210 @@
-[{"id":1,"url":"https://www.livre-audio-enfant.com/${$(this).children(\"a\").attr(\"href\")}"},{"id":2,"url":"https://www.livre-audio-enfant.com/${$(this).children(\"a\").attr(\"href\")}"}]
+[
+    {
+        "id": 1,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 2,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 3,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 4,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 5,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 6,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 7,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 8,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 9,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 10,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 11,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 12,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 13,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 14,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 15,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 16,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 17,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 18,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 19,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 20,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 21,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 22,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 23,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 24,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 25,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 26,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 27,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 28,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 29,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 30,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 31,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 32,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 33,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 34,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 35,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 36,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 37,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 38,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 39,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 40,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 41,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 42,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 43,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 44,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 45,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 46,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 47,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 48,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 49,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 50,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 51,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    },
+    {
+        "id": 52,
+        "url": "https://www.amazon.fr/s?k=basket${$(this).children(\"a\").attr(\"href\")}"
+    }
+]
